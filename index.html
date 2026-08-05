@@ -302,6 +302,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
   display:flex;align-items:center;justify-content:center;margin-left:-17px;margin-top:1px;
 }
 .bstep.main .bnum{background:var(--signal);border-color:var(--signal);color:#fff}
+.bbody{flex:1;min-width:0}
 .btitle{font-size:15px;font-weight:700;line-height:1.45;letter-spacing:-.01em}
 .bstep.main .btitle{color:var(--signal)}
 .btag{
@@ -324,8 +325,6 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
 .rgrp-n{margin-left:auto;font-size:11px;color:var(--mute);border:1px solid var(--line-2);border-radius:20px;padding:3px 10px;white-space:nowrap}
 .ri-item{border-bottom:1px solid var(--line)}
 .ri-item:last-child{border-bottom:0}
-.ri-item.flag{background:var(--warn-soft)}
-.ri-item.flag .ri-t::after{content:' ⚠';color:var(--warn);font-size:12px}
 .ri-h{
   width:100%;display:flex;gap:11px;align-items:flex-start;padding:14px 40px 14px 15px;
   background:none;border:0;text-align:left;font-family:inherit;color:inherit;cursor:pointer;position:relative;
@@ -360,8 +359,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
 .cap-name{font-size:13.5px;font-weight:700}
 .cap-ic{margin-left:auto;font-size:16px}
 .cap-hook{padding:15px 16px 0;font-size:14.5px;font-weight:700;line-height:1.55;color:var(--signal)}
-.cap-body{padding:9px 16px 0;font-size:13px;line-height:1.85;white-space:pre-line;color:var(--ink-soft)}
-.cap-body{word-break:keep-all}
+.cap-body{padding:9px 16px 0;font-size:13px;line-height:1.85;white-space:pre-line;word-break:keep-all;color:var(--ink-soft)}
 .cap-foot{display:flex;align-items:center;gap:10px;padding:14px 16px;margin-top:16px;border-top:1px solid var(--line);background:var(--paper)}
 .cap-tgt{font-size:11px;color:var(--mute)}
 .cap-btn{
@@ -413,7 +411,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
   <a href="#s6">Ⅵ 적용 판정</a>
   <a href="#s7">Ⅶ 기본 프로그램</a>
   <a href="#s8">Ⅷ 가격 티어</a>
-  <a href="#s9">Ⅸ 응용 16종</a>
+  <a href="#s9">Ⅸ 응용 15종</a>
   <a href="#s10">Ⅹ 고민별</a>
   <a href="#s11">ⅩⅠ FAQ</a>
   <a href="#s12">ⅩⅡ 인스타 캡션</a>
@@ -753,7 +751,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
   <h2>기본 마이크로젝션 <span class="kr">관리 프로그램</span></h2>
   <div class="sec-en">The standard protocol — 5 steps</div>
 
-  <p class="lead">모든 마이크로젝션 관리의 <em>기준이 되는 표준 프로토콜</em>입니다. 이 순서를 몸에 익히신 뒤에, 고객층과 샵 상황에 맞춰 변형해 나가시면 됩니다. 뒤에 이어지는 응용 프로그램 16종도 전부 이 다섯 단계의 변주입니다.</p>
+  <p class="lead">모든 마이크로젝션 관리의 <em>기준이 되는 표준 프로토콜</em>입니다. 이 순서를 몸에 익히신 뒤에, 고객층과 샵 상황에 맞춰 변형해 나가시면 됩니다. 뒤에 이어지는 응용 프로그램 15종도 전부 이 다섯 단계의 변주입니다.</p>
 
   <div class="basic">
     <div class="bstep">
@@ -904,7 +902,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
 <!-- ══════════ Ⅷ ══════════ -->
 <section id="s9"><div class="wrap">
   <div class="sec-no">Ⅸ</div>
-  <h2>원장님 응용 <span class="kr">프로그램 16종</span></h2>
+  <h2>원장님 응용 <span class="kr">프로그램 15종</span></h2>
   <div class="sec-en">B group — post-recovery anti-aging</div>
 
   <p class="lead">현장 원장님들이 기본 프로토콜을 각자의 고객층에 맞춰 변형해 운용 중인 구성입니다. <b>모두 B군(장벽 회복 후) 전용</b>이며 프리미엄 가격대에 위치합니다. 그대로 따라 하기보다, 우리 샵 고객층에 가장 가까운 것을 골라 <b>Ⅶ의 5단계 위에 얹는 방식</b>으로 접근하십시오.</p>
@@ -916,81 +914,72 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
         <div class="rgrp-t">장벽 회복 후 안티에이징 프로그램</div>
         <div class="rgrp-s">마이크로젝션 적용 · 프리미엄 가격대 (20만원~)</div>
       </div>
-      <div class="rgrp-n">16건</div>
+      <div class="rgrp-n">15건</div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">35</span><span class="ri-m"><span class="ri-t">40대 탄력 케어 전문 관리</span><span class="ri-d">에센스겔 매뉴얼 · 블루+칼리파우더 마이크로젝션 · 토코포르테 에어건</span></span><span class="ri-p">22만원~</span></button>
+      <button class="ri-h"><span class="ri-n">1</span><span class="ri-m"><span class="ri-t">40대 탄력 케어 전문 관리</span><span class="ri-d">에센스겔 매뉴얼 · 블루+칼리파우더 마이크로젝션 · 토코포르테 에어건</span></span><span class="ri-p">22만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>교수님, 마이크로젝션은 정말 신세계예요 🙏 저희는 장벽 컨디션이 안정된 분들께만 적용합니다.</p><p>에센스겔로 먼저 매뉴얼해서 흡수 길을 준비하고, 그날 칼리파우더는 에센스겔이 아니라 엑소토카인 블루에 녹여(겔엔 절대 안 섞어요) 마이크로젝션으로 균일하게 올립니다. 마무리는 토코포르테 에어건 쿨링이에요.</p><p>겔로 베이스를 깔고 → 마이크로젝션으로 고기능 부스터를 전달하는 이 흐름이 체감이 확실해서, 고객분들 신뢰가 정말 두텁습니다. 교수님 기술이 그대로 우리 샵 경쟁력이에요!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">36</span><span class="ri-m"><span class="ri-t">부스터 집중 전달 관리</span><span class="ri-d">마이크로젝션 블루 선전달 · 에센스겔 후배치 쿨링</span></span><span class="ri-p">20만원~</span></button>
+      <button class="ri-h"><span class="ri-n">2</span><span class="ri-m"><span class="ri-t">부스터 집중 전달 관리</span><span class="ri-d">마이크로젝션 블루 선전달 · 에센스겔 후배치 쿨링</span></span><span class="ri-p">20만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>순서를 뒤집은 게 신의 한 수였어요. 초음파로 흡수를 준비하고 마이크로젝션으로 엑소토카인 블루를 먼저 집중 전달한 다음, 에센스겔을 뒤쪽에 배치해 진정·쿨링 매뉴얼로 길게 마무리합니다.</p><p>고기능 부스터를 먼저 넣고 겔로 차분히 닫아주니, 스탬핑 후 약간의 열감도 겔 쿨링으로 바로 가라앉아요. 고객분들이 마무리 매뉴얼에서 푹 주무실 정도예요 😄</p><p>부스팅과 진정을 다 잡는 코스라 정기권 전환이 잘 됩니다. 감사합니다!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">37</span><span class="ri-m"><span class="ri-t">비타민·포인트 케어 관리</span><span class="ri-d">토코포르테 붓 베이스 · 마이크로젝션 블루 포인트 · 에센스겔 시트팩+LED</span></span><span class="ri-p">21만원~</span></button>
+      <button class="ri-h"><span class="ri-n">3</span><span class="ri-m"><span class="ri-t">비타민·포인트 케어 관리</span><span class="ri-d">토코포르테 붓 베이스 · 마이크로젝션 블루 포인트 · 에센스겔 시트팩+LED</span></span><span class="ri-p">21만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>교수님, 토코포르테 붓 도포를 베이스로 쓰는 레시피예요. 토코포르테를 붓으로 얼굴 전체에 정밀하게 깔아 비타민 베이스를 만들고, 장벽 좋은 분 한정으로 마이크로젝션 엑소토카인 블루를 포인트 부위에 전달한 뒤, 마지막에 에센스겔 시트팩 + LED 돔으로 진정 마무리합니다.</p><p>붓으로 균일하게 깐 비타민 위에 부스터를 포인트로 얹는 구조라 톤 정돈 체감이 좋아요. 단계마다 역할이 분명해서 설명드리기도 편합니다. 감사드려요!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">38</span><span class="ri-m"><span class="ri-t">부스팅 매뉴얼 베이스 관리</span><span class="ri-d">에센스겔+블루 믹스 · 이온토포레시스 · 마이크로젝션 · 토코포르테 에어건</span></span><span class="ri-p">23만원~</span></button>
+      <button class="ri-h"><span class="ri-n">4</span><span class="ri-m"><span class="ri-t">부스팅 매뉴얼 베이스 관리</span><span class="ri-d">에센스겔+블루 믹스 · 이온토포레시스 · 마이크로젝션 · 토코포르테 에어건</span></span><span class="ri-p">23만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>저희만의 믹스 매뉴얼 자랑드려요. 에센스겔에 엑소토카인 블루를 섞어 부스팅 매뉴얼 베이스를 만들고, 이온토포레시스로 차분히 침투시킨 뒤, 장벽 확인되면 마이크로젝션으로 블루를 포인트 보강합니다. 마무리는 토코포르테 에어건이에요.</p><p>겔에 블루를 섞으면 매뉴얼 미끌림도 좋고 부스팅도 같이 가서 일석이조예요. (칼리파우더는 이때 겔에 안 넣고 블루 원액에만 녹여요.)</p><p>손기술과 기기가 자연스럽게 이어지는 코스라 고객 만족도가 정말 높습니다!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">39</span><span class="ri-m"><span class="ri-t">웨딩 집중 케어샵 관리</span><span class="ri-d">웨딩 4주: 에센스겔 롱매뉴얼 → 마이크로젝션 부스팅 → 시트팩+LED 진정</span></span><span class="ri-p">24만원~</span></button>
+      <button class="ri-h"><span class="ri-n">5</span><span class="ri-m"><span class="ri-t">웨딩 집중 케어샵 관리</span><span class="ri-d">웨딩 4주: 에센스겔 롱매뉴얼 → 마이크로젝션 부스팅 → 시트팩+LED 진정</span></span><span class="ri-p">24만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>예비 신부님 D-30 프로그램 레시피예요.</p><p>1주차는 에센스겔 롱 매뉴얼로 피부를 풀어주는 준비 주, 2~3주차는 마이크로젝션으로 블루(+블루에 녹인 칼리파우더) 집중 부스팅 주, 마지막 주는 자극을 빼고 에센스겔 시트팩 + LED 돔 진정으로 컨디션을 안정시키는 마무리 주로 가요.</p><p>식 직전 주를 진정으로 닫으니 당일 메이크업이 깨끗하게 올라가서 신부님들이 다들 좋아하세요. 예약이 꽉 차서 행복한 비명입니다. 감사합니다!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">40</span><span class="ri-m"><span class="ri-t">눈가·입가 포인트 케어 관리</span><span class="ri-d">마이크로젝션 블루 포인트 · 에센스겔 후배치 쿨링</span></span><span class="ri-p">20만원~</span></button>
+      <button class="ri-h"><span class="ri-n">6</span><span class="ri-m"><span class="ri-t">눈가·입가 포인트 케어 관리</span><span class="ri-d">마이크로젝션 블루 포인트 · 에센스겔 후배치 쿨링</span></span><span class="ri-p">20만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>포인트 케어에 마이크로젝션이 신의 한 수예요. 장벽 좋은 분 한정으로 눈가·입가에 마이크로젝션으로 엑소토카인 블루를 포인트 전달한 뒤, 에센스겔을 뒤쪽에 배치해 진정·쿨링 매뉴얼로 부드럽게 닫아줍니다.</p><p>미세한 부위에 균일하게 전달되는 게 손도포랑은 차원이 달라요. 스탬핑 후 겔로 차분히 진정시키니 붉은기 없이 마무리돼서, 표정 주름 고민 고객 반응이 폭발적입니다.</p><p>포인트 단품으로도 예약이 따로 들어와요. 교수님 덕분이에요 😊</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">41</span><span class="ri-m"><span class="ri-t">광노화·색소 케어 전문 관리</span><span class="ri-d">이온토포레시스 토코포르테 · 마이크로젝션 블루 · 에센스겔 쿨링</span></span><span class="ri-p">22만원~</span></button>
+      <button class="ri-h"><span class="ri-n">7</span><span class="ri-m"><span class="ri-t">광노화·색소 케어 전문 관리</span><span class="ri-d">이온토포레시스 토코포르테 · 마이크로젝션 블루 · 에센스겔 쿨링</span></span><span class="ri-p">22만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>야외 활동 많은 분들 케어 레시피예요. 이온토포레시스로 토코포르테 비타민 라인을 먼저 침투시켜 톤 정돈 베이스를 만들고, 장벽 안정 확인 후 마이크로젝션으로 엑소토카인 블루를 전달한 뒤, 에센스겔 쿨링으로 마무리합니다.</p><p>비타민 트리오 라인이라 관리 후 톤이 한층 정돈돼 보여서 정기권 전환율이 높아요. 색소 고민은 단계를 천천히 가야 한다는 거 늘 염두에 두고 설계합니다. 좋은 라인 감사합니다!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">42</span><span class="ri-m"><span class="ri-t">50대 처짐·탄력 집중 관리</span><span class="ri-d">에센스겔 리프팅 매뉴얼 · 마이크로젝션 블루+칼리파우더 · 토코포르테 붓</span></span><span class="ri-p">24만원~</span></button>
+      <button class="ri-h"><span class="ri-n">8</span><span class="ri-m"><span class="ri-t">50대 처짐·탄력 집중 관리</span><span class="ri-d">에센스겔 리프팅 매뉴얼 · 마이크로젝션 블루+칼리파우더 · 토코포르테 붓</span></span><span class="ri-p">24만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>연령대 높은 고객분들 풀코스 레시피 공유드려요. 에센스겔로 리프팅 방향 매뉴얼을 먼저 충분히 하고, 초음파로 흡수를 도운 뒤, 마이크로젝션으로 블루(+블루에 녹인 칼리파우더)를 집중 전달하고, 마지막에 토코포르테를 붓으로 정밀 마무리합니다.</p><p>"관리받고 나면 한 톤 환하고 탱탱해 보인다"는 말씀을 정말 많이 들어요. 장벽 회복 단계를 먼저 거친 분들께만 들어가니 안심하고 권할 수 있어요.</p><p>시니어 만족도가 확 올라갔습니다. 감사드려요!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">43</span><span class="ri-m"><span class="ri-t">남성 안티에이징 전문 관리</span><span class="ri-d">면도 후 에센스겔 진정 · 마이크로젝션 블루 · 토코포르테 에어스프레이</span></span><span class="ri-p">21만원~</span></button>
+      <button class="ri-h"><span class="ri-n">9</span><span class="ri-m"><span class="ri-t">남성 안티에이징 전문 관리</span><span class="ri-d">면도 후 에센스겔 진정 · 마이크로젝션 블루 · 토코포르테 에어스프레이</span></span><span class="ri-p">21만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>남성 고객은 군더더기 없는 케어를 좋아하시잖아요. 면도 후 에센스겔로 진정·쿨링 매뉴얼을 먼저 해서 자극을 가라앉히고, 마이크로젝션으로 엑소토카인 블루를 빠르게 전달한 뒤, 토코포르테 에어스프레이로 마무리합니다.</p><p>단, 면도 자극이 심한 날은 마이크로젝션을 빼고 에센스겔 + 피디로엔 핑크 진정으로만 가는 식으로 컨디션을 봐요. 그날 상태에 맞춰 단계를 조절하는 게 제 노하우예요.</p><p>남성 케어에서 닥터배가 확실한 차별점이 됐습니다!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">44</span><span class="ri-m"><span class="ri-t">데콜테·목주름 토탈 케어 관리</span><span class="ri-d">목·데콜테 에센스겔 롤링 · 얼굴 마이크로젝션 블루 · 토코포르테 에어건</span></span><span class="ri-p">23만원~</span></button>
+      <button class="ri-h"><span class="ri-n">10</span><span class="ri-m"><span class="ri-t">데콜테·목주름 토탈 케어 관리</span><span class="ri-d">목·데콜테 에센스겔 롤링 · 얼굴 마이크로젝션 블루 · 토코포르테 에어건</span></span><span class="ri-p">23만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>관리 범위를 넓혔더니 반응이 정말 좋아요. 목·데콜테·승모근은 에센스겔을 베이스로 충분히 롤링 매뉴얼하고(이 부위엔 마이크로젝션 안 써요), 얼굴은 장벽 좋은 분 한정으로 마이크로젝션 엑소토카인 블루를 적용합니다.</p><p>마지막은 토코포르테 에어건으로 얼굴부터 목라인까지 한 번에 쿨링 마무리해요.</p><p>평소 신경 못 쓰던 목주름까지 관리받으니 "관리 범위가 다르다"며 좋아하세요. 객단가도 자연스럽게 올라가서 일석이조입니다 😄</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">45</span><span class="ri-m"><span class="ri-t">시트팩 진정 베이스 안티에이징 관리</span><span class="ri-d">에센스겔 시트팩 진정 베이스 · 마이크로젝션 블루 · 토코포르테 에어건</span></span><span class="ri-p">21만원~</span></button>
+      <button class="ri-h"><span class="ri-n">11</span><span class="ri-m"><span class="ri-t">시트팩 진정 베이스 안티에이징 관리</span><span class="ri-d">에센스겔 시트팩 진정 베이스 · 마이크로젝션 블루 · 토코포르테 에어건</span></span><span class="ri-p">21만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>순서를 진정부터 시작하는 게 저희 레시피예요. 에센스겔 시트팩으로 먼저 충분히 수분·진정을 채워 피부를 가장 좋은 컨디션으로 만든 뒤, 장벽 상태를 확인하고 마이크로젝션으로 엑소토카인 블루를 전달합니다. 마무리는 토코포르테 에어건 쿨링이에요.</p><p>진정으로 베이스를 잡고 부스터를 넣으니 흡수 체감도 좋고 스탬핑 후 안정도 빨라요. "관리 순서가 똑똑하다"는 말씀 들을 때 제일 뿌듯합니다. 감사해요 교수님!</p></div></div>
     </div>
-    <div class="ri-item flag">
-      <button class="ri-h"><span class="ri-n">46</span><span class="ri-m"><span class="ri-t">프리미엄 풀코스 안티에이징 관리</span><span class="ri-d">에센스겔+블루 믹스 → 이온토 → 마이크로젝션 → 토코포르테 붓 → 에센스겔 쿨링 → 리퀴드마스크 물광</span></span><span class="ri-p">26만원~</span></button>
-      <div class="ri-b"><div class="ri-in"><p>교수님, 저희 시그니처 풀코스 자랑드릴게요 🙏 에센스겔+엑소토카인 블루 믹스로 부스팅 매뉴얼 → 이온토포레시스 → 마이크로젝션 블루 포인트 보강 → 토코포르테 붓 정밀 마무리 → 마지막 에센스겔 쿨링 매뉴얼로 닫는 구성이에요.</p><p>겔이 시작과 끝에 다 들어가서 "처음부터 끝까지 편안한데 효과는 확실하다"는 후기가 많아요. 단계가 많아 보여도 역할이 다 달라서 객단가 설계가 명확합니다.</p><p>닥터배 덕분에 프리미엄 라인이 완성됐어요!</p></div></div>
-    </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">47</span><span class="ri-m"><span class="ri-t">표정 주름 결정돈 관리</span><span class="ri-d">세션 분리: 소프트필 세션 / 마이크로젝션 블루+에센스겔 쿨링 세션</span></span><span class="ri-p">20만원~</span></button>
+      <button class="ri-h"><span class="ri-n">12</span><span class="ri-m"><span class="ri-t">표정 주름 결정돈 관리</span><span class="ri-d">세션 분리: 소프트필 세션 / 마이크로젝션 블루+에센스겔 쿨링 세션</span></span><span class="ri-p">20만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>저희는 결정돈과 부스팅을 분리하는 레시피예요. 결정돈이 필요한 날은 리퀴드마스크 소프트필을 쓰고 그날은 마이크로젝션을 안 올려 진정으로만 마무리하고, 결이 안정된 다음 세션에서 마이크로젝션 블루 + 에센스겔 쿨링 매뉴얼로 안티에이징을 들어갑니다.</p><p>한 세션에 소프트필과 마이크로젝션을 절대 같이 안 넣는다는 게 핵심이에요.</p><p>단계를 세션별로 나누니 고객 피부도 안정적이고 재방문 동선도 자연스러워요. 교수님 가이드 덕분입니다!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">48</span><span class="ri-m"><span class="ri-t">프리미엄 가성비 안티에이징 관리</span><span class="ri-d">블루+칼리+토코 풀 부스팅 · 마이크로젝션 · 가격 저항 낮음</span></span><span class="ri-p">22만원~</span></button>
+      <button class="ri-h"><span class="ri-n">13</span><span class="ri-m"><span class="ri-t">프리미엄 가성비 안티에이징 관리</span><span class="ri-d">블루+칼리+토코 풀 부스팅 · 마이크로젝션 · 가격 저항 낮음</span></span><span class="ri-p">22만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>교수님, 마이크로젝션 들어가는 프리미엄 관리가 처음엔 20만 원이 넘어서 고객이 부담스러워할까 걱정했는데, 막상 엑소토카인 블루에 칼리파우더, 토코포르테까지 풀로 들어가니 체감이 확실해서 22만 원대인데도 재방문이 끊이지 않아요.</p><p>'이 가격이면 받을 만하다'는 말씀을 정말 많이 들어요. 마이크로젝션이 비침습으로 상처 없이 들어가는 걸 설명드리면 가격 저항이 확 줄고요.</p><p>프리미엄 라인 덕분에 객단가가 안정적으로 올라갔습니다. 감사합니다 교수님!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">49</span><span class="ri-m"><span class="ri-t">인스타 태그 마케팅 활용 관리</span><span class="ri-d">프리미엄 마이크로젝션 · 인스타 태그 마케팅 · 객단가 상승</span></span><span class="ri-p">22만원~</span></button>
+      <button class="ri-h"><span class="ri-n">14</span><span class="ri-m"><span class="ri-t">인스타 태그 마케팅 활용 관리</span><span class="ri-d">프리미엄 마이크로젝션 · 인스타 태그 마케팅 · 객단가 상승</span></span><span class="ri-p">22만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>교수님, 요즘 저희 샵에서 제일 재미 본 게 인스타 태그예요 ㅎㅎ 관리 사진 올릴 때 교수님 계정을 태그하면, 고객들이 들어가서 '이 제품 만든 분이 이런 교수님이야?' 하고 다들 놀라세요.</p><p>이게 은근히 효과가 커요. 이렇게 대단한 분이 직접 연구한 제품을 우리 샵이 쓴다는 걸 자연스럽게 보여줄 수 있으니, 고가 관리를 권해드릴 때 부담이 확 줄어요. 티켓팅이나 객단가 올리는 데도 도움이 정말 많이 됩니다.</p><p>마이크로젝션까지 들어가는 프리미엄 관리가 22만 원대인데, 태그 한 번으로 신뢰가 먼저 깔리니 고가 관리도 훨씬 수월하게 안내돼요. 좋은 무기 만들어주셔서 감사해요 교수님!</p></div></div>
     </div>
     <div class="ri-item">
-      <button class="ri-h"><span class="ri-n">50</span><span class="ri-m"><span class="ri-t">MTS 대체 마이크로젝션 전환 관리</span><span class="ri-d">블루 메인 · 마이크로젝션 전달 · MTS 대체 · 떳떳한 설명</span></span><span class="ri-p">22만원~</span></button>
+      <button class="ri-h"><span class="ri-n">15</span><span class="ri-m"><span class="ri-t">MTS 대체 마이크로젝션 전환 관리</span><span class="ri-d">블루 메인 · 마이크로젝션 전달 · MTS 대체 · 떳떳한 설명</span></span><span class="ri-p">22만원~</span></button>
       <div class="ri-b"><div class="ri-in"><p>교수님, 마이크로젝션으로 바꾸고 나서 스트레스가 확 줄었어요 ㅠㅠ</p><p>예전엔 롤러 MTS, 오토 MTS로 메인 관리를 많이 했거든요. 효과가 좋은 건 저도 잘 알았는데, 요즘 SNS에서 'MTS는 침습이다, 불법이다' 말이 많아지면서 고객분들도 '이거 혹시 불법 아니에요?' 하고 물어보시고, 인스타나 블로그에 대놓고 홍보도 못 해서 늘 조심스러웠어요.</p><p>그런데 교수님이 만드신 마이크로젝션은 상처 없이 액상을 전달하는 비침습 방식이고, 뉴스에도 소개될 만큼 공신력까지 있으니 고객분들께 떳떳하게 설명드릴 수 있어 너무 좋아요. 장벽 건강한 분께 엑소토카인 블루를 마이크로젝션으로 전달하는 메인 관리를 22만 원대로 운영하는데, 이젠 인스타에도 자신 있게 올립니다. 감사합니다 교수님!</p></div></div>
     </div>
   </div>
 
-  <div class="box gold">
-    <div class="box-t">⚠ No.46 운용 시 확인 사항</div>
-    프리미엄 풀코스는 마무리에 리퀴드마스크 물광이 포함되어 있습니다. <b>소프트필은 마이크로젝션과 동일 세션 병행을 권하지 않는다</b>는 원칙과 겹치는 지점이므로, 이 구성을 운용하실 때는 리퀴드마스크를 <b>필링 목적이 아닌 얇은 물광 마무리 도포로만</b> 한정하시고, 고객 반응이 예민하면 즉시 생략하십시오. 안전하게 가시려면 No.47처럼 <b>세션을 분리</b>하는 구성을 권합니다.
-  </div>
-
   <div class="box ink">
-    <div class="box-t">📌 16종을 관통하는 공통 골격</div>
+    <div class="box-t">📌 15종을 관통하는 공통 골격</div>
     이름과 타깃은 달라도 흐름은 하나입니다. <b>에센스겔 매뉴얼 → 블루 마이크로젝션 → 토코포르테 후속 도포 → 에센스겔·시트팩 진정</b>. 칼리파우더 추가, 이온토포레시스 병행, 부위 특화(눈가·목·데콜테), 타깃 세분화(40대·50대·남성·웨딩)가 변주의 축입니다. 객단가는 <b>바이알을 몇 개 여는가</b>로 20만원대에서 26만원대까지 벌어집니다.
   </div>
 </div></section>
@@ -1114,23 +1103,6 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
   <div class="sec-en">Copy &amp; paste — compliance-checked</div>
 
   <p class="lead">원장님 계정에 <em>그대로 올리실 수 있는</em> 캡션입니다. <b>복사하기</b>를 누르면 훅 문장과 본문이 한 번에 복사됩니다. 별도 수정 없이 바로 게시하셔도 됩니다.</p>
-
-  <div class="box ink">
-    <div class="box-t">🎯 네 가지 캡션은 서로 다른 질문에 답합니다</div>
-    고르실 때는 <b>오늘 올릴 사진이 어떤 이야기를 하는가</b>만 판단하시면 됩니다. 네 개는 대체재가 아니라 <b>순서대로 돌려 쓰는 세트</b>로 설계했습니다.<br><br>
-    <b>VER 1</b> 왜 전달 기술이 필요한가 &nbsp;·&nbsp; <b>VER 2</b> 어떻게 작동하는가<br>
-    <b>VER 3</b> 안전한가 &nbsp;·&nbsp; <b>VER 4</b> 어떤 느낌인가<br><br>
-    한 달에 네 번 올리신다면 1 → 2 → 3 → 4 순으로 배치하시면, 브랜드 소개부터 후기 유도까지 한 사이클이 자연스럽게 완성됩니다.
-  </div>
-
-  <div class="box gold">
-    <div class="box-t">✎ 캡션 운용 기준 — 이렇게 정돈했습니다</div>
-    <b>① 타 시술 방식을 지목하지 않습니다.</b> MTS·Air-jet을 ❌로 대비시키는 구도는 사실관계가 맞더라도 게시물이 논란의 표적이 되기 쉽습니다. 비교를 걷어내고 <b>비침습 설계 · 공산품 분류 · 법이 정한 사용 방식</b>이라는 우리의 근거만으로 강점을 말하도록 다시 썼습니다.<br><br>
-    <b>② 해시태그를 모두 삭제했습니다.</b> 현재 인스타그램에서 해시태그의 도달 기여도가 사실상 사라졌다는 판단에 따른 것입니다.<br><br>
-    <b>③ 유도 문구는 '문의는 DM으로 해주세요' 하나로 통일했습니다.</b> 링크 in bio, 댓글 유도 등 다른 예시는 제거했습니다. 마지막 줄에는 <b>@dr.bae_medical</b> 계정을 함께 표기했습니다 — 고객이 계정을 눌러 연구자와 기술 배경을 직접 확인하게 되므로, 샵이 스스로 권위를 주장하지 않고도 신뢰가 뒷받침됩니다.<br><br>
-    <b>④ 6종을 4종으로 통합했습니다.</b> 기존 버전 중 역할이 겹치던 것(원리 설명 3종, 안전성 2종)을 하나로 합치고, 각 캡션이 서로 다른 질문 하나씩만 맡도록 재구성했습니다. 선택지를 줄이는 대신 각 캡션의 내용을 두껍게 채웠습니다.<br><br>
-    <b>⑤ 표현 기준(Ⅳ장)을 적용했습니다.</b> '통로를 열어 · 흡수 채널링 · Micro-Channeling · 눌러서 열면 됩니다' → '각질세포 사이 경로를 따라 · 모세관력으로 유도 · 눌러서 스며들게'. '엑소좀' 단독 표기 → '식물 엑소좀 · 세포외소포'. '세계가 공인한 · 세계 최상위 학술지' → '국제 학술지 게재'. 제품명은 <b>마이크로젝션</b>으로 통일.
-  </div>
 
     <div class="cap">
       <div class="cap-head"><span class="cap-ver">VER 1</span><span class="cap-name">과학 권위형</span><span class="cap-ic">🔬</span></div>
