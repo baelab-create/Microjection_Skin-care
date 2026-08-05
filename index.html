@@ -334,6 +334,32 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
 .ri-in p:last-child{margin-bottom:0}
 @media(max-width:520px){.ri-in{padding:2px 16px 20px 15px}}
 
+/* ── caption cards ── */
+.cap{border:1px solid var(--line-2);border-radius:3px;background:#fff;margin:14px 0;overflow:hidden}
+.cap-head{display:flex;align-items:center;gap:9px;padding:13px 16px;background:var(--paper-2);border-bottom:1px solid var(--line)}
+.cap-ver{font-size:9.5px;letter-spacing:.12em;font-weight:700;background:var(--signal);color:#fff;padding:3px 8px;border-radius:2px}
+.cap-name{font-size:13.5px;font-weight:700}
+.cap-ic{margin-left:auto;font-size:16px}
+.cap-hook{padding:15px 16px 0;font-size:14.5px;font-weight:700;line-height:1.55;color:var(--signal)}
+.cap-body{padding:9px 16px 0;font-size:13px;line-height:1.85;white-space:pre-line;color:var(--ink-soft)}
+.cap-body{word-break:keep-all}
+.cap-foot{display:flex;align-items:center;gap:10px;padding:14px 16px;margin-top:16px;border-top:1px solid var(--line);background:var(--paper)}
+.cap-tgt{font-size:11px;color:var(--mute)}
+.cap-btn{
+  margin-left:auto;background:var(--ink);color:#fff;border:0;border-radius:2px;
+  font-family:inherit;font-size:12.5px;font-weight:500;padding:9px 20px;cursor:pointer;transition:.18s;
+}
+.cap-btn:hover{background:var(--signal)}
+.cap-btn:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+.cap-btn.done{background:var(--ok)}
+#copy-ta{position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;z-index:-1;border:0;font-size:12px}
+.toast{
+  position:fixed;left:50%;bottom:34px;transform:translateX(-50%) translateY(14px);
+  background:var(--ink);color:#fff;font-size:13px;padding:11px 24px;border-radius:24px;
+  opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;z-index:999;white-space:nowrap;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}
   html{scroll-behavior:auto}
@@ -371,7 +397,8 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
   <a href="#s9">Ⅸ 응용 16종</a>
   <a href="#s10">Ⅹ 고민별</a>
   <a href="#s11">ⅩⅠ FAQ</a>
-  <a href="#s12">ⅩⅡ 준수 원칙</a>
+  <a href="#s12">ⅩⅡ 인스타 캡션</a>
+  <a href="#s13">ⅩⅢ 준수 원칙</a>
 </div></nav>
 
 <!-- ══════════ Ⅰ ══════════ -->
@@ -1048,6 +1075,145 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
 <!-- ══════════ ⅩⅠ ══════════ -->
 <section id="s12"><div class="wrap">
   <div class="sec-no">ⅩⅡ</div>
+  <h2>인스타그램 <span class="kr">피드 캡션 4종</span></h2>
+  <div class="sec-en">Copy &amp; paste — compliance-checked</div>
+
+  <p class="lead">원장님 계정에 <em>그대로 올리실 수 있는</em> 캡션입니다. <b>복사하기</b>를 누르면 훅 문장과 본문이 한 번에 복사됩니다. 별도 수정 없이 바로 게시하셔도 됩니다.</p>
+
+  <div class="box ink">
+    <div class="box-t">🎯 네 가지 캡션은 서로 다른 질문에 답합니다</div>
+    고르실 때는 <b>오늘 올릴 사진이 어떤 이야기를 하는가</b>만 판단하시면 됩니다. 네 개는 대체재가 아니라 <b>순서대로 돌려 쓰는 세트</b>로 설계했습니다.<br><br>
+    <b>VER 1</b> 왜 전달 기술이 필요한가 &nbsp;·&nbsp; <b>VER 2</b> 어떻게 작동하는가<br>
+    <b>VER 3</b> 안전한가 &nbsp;·&nbsp; <b>VER 4</b> 어떤 느낌인가<br><br>
+    한 달에 네 번 올리신다면 1 → 2 → 3 → 4 순으로 배치하시면, 브랜드 소개부터 후기 유도까지 한 사이클이 자연스럽게 완성됩니다.
+  </div>
+
+  <div class="box gold">
+    <div class="box-t">✎ 캡션 운용 기준 — 이렇게 정돈했습니다</div>
+    <b>① 타 시술 방식을 지목하지 않습니다.</b> MTS·Air-jet을 ❌로 대비시키는 구도는 사실관계가 맞더라도 게시물이 논란의 표적이 되기 쉽습니다. 비교를 걷어내고 <b>비침습 설계 · 공산품 분류 · 법이 정한 사용 방식</b>이라는 우리의 근거만으로 강점을 말하도록 다시 썼습니다.<br><br>
+    <b>② 해시태그를 모두 삭제했습니다.</b> 현재 인스타그램에서 해시태그의 도달 기여도가 사실상 사라졌다는 판단에 따른 것입니다.<br><br>
+    <b>③ 유도 문구는 '문의는 DM으로 해주세요' 하나로 통일했습니다.</b> 링크 in bio, 댓글 유도 등 다른 예시는 제거했습니다. 마지막 줄에는 <b>@dr.bae_medical</b> 계정을 함께 표기했습니다 — 고객이 계정을 눌러 연구자와 기술 배경을 직접 확인하게 되므로, 샵이 스스로 권위를 주장하지 않고도 신뢰가 뒷받침됩니다.<br><br>
+    <b>④ 6종을 4종으로 통합했습니다.</b> 기존 버전 중 역할이 겹치던 것(원리 설명 3종, 안전성 2종)을 하나로 합치고, 각 캡션이 서로 다른 질문 하나씩만 맡도록 재구성했습니다. 선택지를 줄이는 대신 각 캡션의 내용을 두껍게 채웠습니다.<br><br>
+    <b>⑤ 표현 기준(Ⅳ장)을 적용했습니다.</b> '통로를 열어 · 흡수 채널링 · Micro-Channeling · 눌러서 열면 됩니다' → '각질세포 사이 경로를 따라 · 모세관력으로 유도 · 눌러서 스며들게'. '엑소좀' 단독 표기 → '식물 엑소좀 · 세포외소포'. '세계가 공인한 · 세계 최상위 학술지' → '국제 학술지 게재'. 제품명은 <b>마이크로젝션</b>으로 통일.
+  </div>
+
+    <div class="cap">
+      <div class="cap-head"><span class="cap-ver">VER 1</span><span class="cap-name">과학 권위형</span><span class="cap-ic">🔬</span></div>
+      <div class="cap-hook">독사 어금니에서 배운 흡수의 과학 🐍</div>
+      <div class="cap-body">🐍 독사는 힘으로 독을 밀어 넣지 않습니다.
+어금니 표면의 미세한 홈을 따라
+모세관력만으로 액체가 스스로 이동하죠.
+
+💡 이 원리를 피부 관리에 옮겨 온 것이
+닥터배 마이크로젝션입니다.
+
+🧱 좋은 앰플을 발라도, 각질층은 본래
+외부 물질을 막도록 만들어진 조직이에요.
+분자가 크고 구조가 복잡한 성분일수록
+피부 위에 머물다 마르기 쉽습니다.
+
+✨ 그래서 '무엇을 바르는가' 만큼
+'어떻게 전달하는가'가 중요합니다.
+
+📄 국제 학술지 Science Translational Medicine에 게재된
+배원규 교수(숭실대) 연구실의 기술을
+저희 샵에서 직접 경험해 보세요.
+
+💬 문의는 DM으로 해주세요.
+
+🔬 기술 개발 · 연구 @dr.bae_medical</div>
+      <div class="cap-foot"><span class="cap-tgt">타겟 · 근거를 중시하는 고객 · 브랜드 소개 게시물</span><button class="cap-btn" onclick="copyCap(this)">복사하기</button></div>
+    </div>
+    <div class="cap">
+      <div class="cap-head"><span class="cap-ver">VER 2</span><span class="cap-name">원리 교육형</span><span class="cap-ic">📖</span></div>
+      <div class="cap-hook">스킨부스터 성분, 그냥 바르면 어디까지 갈까요?</div>
+      <div class="cap-body">🧱 히알루론산·세포외소포 분자는
+각질층을 통과하기가 쉽지 않아요.
+
+각질세포와 세포간지질이 벽돌과 회반죽처럼
+촘촘히 쌓여 외부 물질을 막고 있으니까요.
+
+🔎 마이크로젝션이 하는 일 :
+
+1️⃣ 피부에 빈틈없이 밀착 (Micro-Stamping)
+수백 개의 미세 구조가 굴곡까지 고르게 닿습니다
+
+2️⃣ 모세관력 발생 (Capillary Guiding)
+각질세포 사이의 본래 경로를 따라 성분을 유도합니다
+
+3️⃣ 자연스럽게 스며듦 (Micro-Infusion)
+누르는 동안 액체 스스로의 힘으로 전달됩니다
+
+💧 각질층을 손상시키지 않고
+피부가 본래 가진 길을 활용하는 흡수 루틴이에요.
+
+💬 문의는 DM으로 해주세요.
+
+🔬 기술 개발 · 연구 @dr.bae_medical</div>
+      <div class="cap-foot"><span class="cap-tgt">타겟 · 성분과 원리가 궁금한 고객 · 정보성 게시물</span><button class="cap-btn" onclick="copyCap(this)">복사하기</button></div>
+    </div>
+    <div class="cap">
+      <div class="cap-head"><span class="cap-ver">VER 3</span><span class="cap-name">안심 설계형</span><span class="cap-ic">🛡</span></div>
+      <div class="cap-hook">뚫지 않습니다. 눌러서 스며들게 합니다.</div>
+      <div class="cap-body">🛡 마이크로젝션은 피부를 찌르거나 뚫지 않습니다.
+
+✅ 비침습 설계
+끝단이 평평하게 가공되어 각질층을 관통하지 않습니다
+
+✅ 공산품으로 분류된 미용 디바이스
+의료기기가 아니며, 의료행위와 무관합니다
+
+✅ 법이 정한 사용 방식 그대로
+화장품법이 정한 '바르고·누르는' 방식으로,
+공중위생관리법상 피부미용업 범위 안에서 사용합니다
+
+✅ 위생 관리
+스탬프는 1회용이라 고객님 앞에서 새로 개봉합니다
+
+🐍 상처도, 출혈도, 통증도 없이
+모세관력으로 성분의 흡수를 돕는 방식이에요.
+안심하고 받으셔도 됩니다.
+
+💬 문의는 DM으로 해주세요.
+
+🔬 기술 개발 · 연구 @dr.bae_medical</div>
+      <div class="cap-foot"><span class="cap-tgt">타겟 · 시술 부담·안전성이 걱정되는 고객</span><button class="cap-btn" onclick="copyCap(this)">복사하기</button></div>
+    </div>
+    <div class="cap">
+      <div class="cap-head"><span class="cap-ver">VER 4</span><span class="cap-name">감성 공감형</span><span class="cap-ic">✨</span></div>
+      <div class="cap-hook">비싼 앰플이 겉돌고 있다는 느낌, 받아보셨나요?</div>
+      <div class="cap-body">💧 그 앰플, 각질층 위에 머물다
+마르고 있을지도 몰라요.
+
+🙋 저희 샵에서 가장 많이 듣는 말씀이
+"이거 뭐예요? 사용감이 완전 달라요" 랍니다.
+
+✨ 같은 앰플인데
+마이크로젝션 밀착 케어를 받고 나면
+뭔가 다르게 촉촉하다는 걸 느끼세요.
+
+👉 밀착하고 → 머물고 → 자연스럽게 스며드는
+3단계 흡수 루틴의 차이예요.
+
+🐍 찌르지 않아요. 눌러서 머금게 해요.
+오늘 밤, 당신의 스킨케어가 달라집니다.
+
+💬 문의는 DM으로 해주세요.
+
+🔬 기술 개발 · 연구 @dr.bae_medical</div>
+      <div class="cap-foot"><span class="cap-tgt">타겟 · 일반 고객 · 후기 및 릴스 연동</span><button class="cap-btn" onclick="copyCap(this)">복사하기</button></div>
+    </div>
+
+  <div class="box red">
+    <div class="box-t">⛔ 게시 전 마지막 확인</div>
+    캡션을 변형하시더라도 다음은 넣지 마십시오 — <b>주입 · 뚫는다 · 채널 생성 · 장벽을 연다 · 재생 · 치료 · 항염 · 발모 · 엑소좀(단독)</b>. 그리고 <b>MTS·주사·타 시술을 지목해 비교하는 구도</b>도 피해 주십시오. 우리의 강점은 남을 깎아서가 아니라 <b>비침습 설계와 법적 근거</b>로 설명될 때 가장 안전하고 강합니다. 사진 한 장과 문구 한 줄만으로도 민원의 근거가 될 수 있습니다.
+  </div>
+</div></section>
+
+<hr class="hr">
+
+<section id="s13"><div class="wrap">
+  <div class="sec-no">ⅩⅢ</div>
   <h2>절대 준수 <span class="kr">운영 원칙</span></h2>
   <div class="sec-en">Non-negotiable</div>
 
@@ -1087,7 +1253,57 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
   </div>
 </footer>
 
+<textarea id="copy-ta" readonly aria-hidden="true"></textarea>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
 <script>
+function capText(card){
+  return [card.querySelector('.cap-hook').textContent.trim(),
+          '',
+          card.querySelector('.cap-body').textContent.trim()].join('\n');
+}
+function toast(msg){
+  var t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(function(){t.classList.remove('show');},2100);
+}
+function markDone(btn){
+  var o=btn.textContent; btn.textContent='복사됨 ✓'; btn.classList.add('done');
+  setTimeout(function(){btn.textContent=o; btn.classList.remove('done');},2000);
+}
+function legacyCopy(text){
+  var ta=document.getElementById('copy-ta');
+  ta.value=text;
+  ta.removeAttribute('readonly');
+  ta.focus();
+  if(/ipad|iphone|ipod/i.test(navigator.userAgent)){
+    var r=document.createRange(); r.selectNodeContents(ta);
+    var s=window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    ta.setSelectionRange(0, text.length);
+  } else {
+    ta.select();
+  }
+  var ok=false;
+  try{ ok=document.execCommand('copy'); }catch(e){ ok=false; }
+  ta.setAttribute('readonly','readonly');
+  window.getSelection().removeAllRanges();
+  ta.blur();
+  return ok;
+}
+function copyCap(btn){
+  var text=capText(btn.closest('.cap'));
+  if(navigator.clipboard && window.isSecureContext){
+    navigator.clipboard.writeText(text).then(function(){
+      markDone(btn); toast('캡션이 복사되었습니다');
+    }).catch(function(){
+      if(legacyCopy(text)){ markDone(btn); toast('캡션이 복사되었습니다'); }
+      else { toast('복사에 실패했습니다. 캡션을 길게 눌러 직접 선택해 주세요'); }
+    });
+  } else {
+    if(legacyCopy(text)){ markDone(btn); toast('캡션이 복사되었습니다'); }
+    else { toast('복사에 실패했습니다. 캡션을 길게 눌러 직접 선택해 주세요'); }
+  }
+}
 document.querySelectorAll('.acc-h,.ri-h').forEach(function(h){
   h.setAttribute('aria-expanded','false');
   h.addEventListener('click',function(){
