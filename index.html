@@ -9,6 +9,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
+  --pd-blue:#1E63B0;
+  --pd-pink:#D34E86;
+  --pd-brown:#8A5A2B;
+  --pd-gray:#71747B;
+  --pd-navy:#22355F;
   --ink:#16181F;
   --ink-soft:#2E313B;
   --paper:#FAF8F4;
@@ -181,6 +186,20 @@ figcaption{font-size:11.5px;color:var(--mute);margin-top:9px;line-height:1.65}
 .acc-tag.g{background:var(--gold);color:#fff}
 .acc-tag.k{background:var(--ink);color:#fff}
 .acc-tag.o{background:var(--ok);color:#fff}
+.acc-i.pd-blue  .acc-tag{background:var(--pd-blue);color:#fff}
+.acc-i.pd-blue  .acc-t{color:var(--pd-blue)}
+.acc-i.pd-pink  .acc-tag{background:var(--pd-pink);color:#fff}
+.acc-i.pd-pink  .acc-t{color:var(--pd-pink)}
+.acc-i.pd-brown .acc-tag{background:var(--pd-brown);color:#fff}
+.acc-i.pd-brown .acc-t{color:var(--pd-brown)}
+.acc-i.pd-gray  .acc-tag{background:var(--pd-gray);color:#fff}
+.acc-i.pd-gray  .acc-t{color:var(--pd-gray)}
+.acc-i.pd-navy  .acc-tag{background:var(--pd-navy);color:#fff}
+.acc-i.pd-navy  .acc-t{color:var(--pd-navy)}
+.acc-i.pd-red   .acc-tag{background:var(--signal);color:#fff}
+.acc-i.pd-red   .acc-t{color:var(--signal)}
+.c-blue{color:var(--pd-blue)}.c-pink{color:var(--pd-pink)}.c-brown{color:var(--pd-brown)}
+.c-gray{color:var(--pd-gray)}.c-navy{color:var(--pd-navy)}.c-red{color:var(--signal)}
 .acc-t{display:block;font-size:15.5px;font-weight:700;line-height:1.42;letter-spacing:-.01em}
 .acc-s{display:block;font-size:12.5px;color:var(--mute);margin-top:4px;line-height:1.6}
 .acc-h::after{
@@ -547,18 +566,18 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
 
   <div class="tbw"><table class="tb">
     <tr><th>제품</th><th>제형</th><th>더마 스탬프 결합</th><th>운용 위치</th></tr>
-    <tr><td class="k">엑소토카인 블루</td><td>점성 있는 앰플</td><td style="color:var(--ok);font-weight:700">가능 ✔</td><td>스탬핑 메인 — 안티에이징 지향</td></tr>
-    <tr><td class="k">피디로엔 핑크</td><td>점성 있는 앰플</td><td style="color:var(--ok);font-weight:700">가능 ✔</td><td>스탬핑 메인 — 진정·밸런싱 지향</td></tr>
-    <tr><td class="k">칼리파우더</td><td>동결건조 파우더</td><td style="color:var(--ok);font-weight:700">간접 ✔</td><td>블루·핑크에 용해 후 스탬핑 — 업셀 옵션</td></tr>
-    <tr><td class="k">엑소토카인 토코포르테</td><td>저점도 액상</td><td style="color:var(--signal);font-weight:700">불가 ✕</td><td>스탬핑 <b>전후</b> 케어 — 에어건·손 도포</td></tr>
+    <tr><td class="k c-blue">엑소토카인 블루</td><td>점성 있는 앰플</td><td style="color:var(--ok);font-weight:700">가능 ✔</td><td>스탬핑 메인 — 안티에이징 지향</td></tr>
+    <tr><td class="k c-pink">피디로엔 핑크</td><td>점성 있는 앰플</td><td style="color:var(--ok);font-weight:700">가능 ✔</td><td>스탬핑 메인 — 진정·밸런싱 지향</td></tr>
+    <tr><td class="k c-gray">칼리파우더</td><td>동결건조 파우더</td><td style="color:var(--ok);font-weight:700">간접 ✔</td><td>블루·핑크에 용해 후 스탬핑 / 토코포르테에 용해 후 에어건 — 업셀 옵션</td></tr>
+    <tr><td class="k c-brown">엑소토카인 토코포르테</td><td>저점도 액상</td><td style="color:var(--signal);font-weight:700">불가 ✕</td><td>스탬핑 <b>전후</b> 케어 — 에어건·손 도포</td></tr>
     <tr><td class="k">엑소토카인 에센스겔</td><td>카보머 겔</td><td style="color:var(--signal);font-weight:700">불가 ✕</td><td>매뉴얼 베이스 + <b>마무리 진정</b></td></tr>
-    <tr><td class="k">엑소토카인 리퀴드 마스크</td><td>소프트필 앰플</td><td style="color:var(--signal);font-weight:700">불가 ✕</td><td>세션 분리 — 별도 필 관리 회차</td></tr>
+    <tr><td class="k c-navy">엑소토카인 리퀴드 마스크</td><td>소프트필 앰플</td><td style="color:var(--signal);font-weight:700">불가 ✕</td><td>세션 분리 — 별도 필 관리 회차</td></tr>
   </table></div>
 
   <p style="font-size:12.5px;color:var(--mute)">※ 결합 가능한 스킨부스터는 <b>엑소토카인 블루 · 피디로엔 핑크 2종</b>입니다. 이 두 가지 중 하나를 고르는 것이 스탬핑 프로그램 설계의 출발점입니다.</p>
 
   <div class="acc">
-    <div class="acc-i"><button class="acc-h"><span class="acc-tag r">DEVICE · 샵 전용 · 1회용</span><span class="acc-t">마이크로젝션 더마 스탬프</span><span class="acc-s">비침습 경피 도포 어플리케이터 · 앰플 직결합형</span></button><div class="acc-b"><div class="acc-in">
+    <div class="acc-i pd-red"><button class="acc-h"><span class="acc-tag r">DEVICE · 샵 전용 · 1회용</span><span class="acc-t">마이크로젝션 더마 스탬프</span><span class="acc-s">비침습 경피 도포 어플리케이터 · 앰플 직결합형</span></button><div class="acc-b"><div class="acc-in">
       <h4>▎역할</h4>
       <p>앰플 바이알에 직접 결합해 도장처럼 수직으로 눌러 사용합니다. 관리의 <b>가격대를 결정짓는 단일 요인</b>이며, 프리미엄 티어의 정의 그 자체입니다.</p>
       <h4>▎구조</h4>
@@ -574,7 +593,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
       </ul>
     </div></div></div>
 
-    <div class="acc-i"><button class="acc-h"><span class="acc-tag k">BOOSTER · 메인</span><span class="acc-t">엑소토카인 블루</span><span class="acc-s">병풀캘러스세포외소포 · NMN · 펩타이드 콤플렉스</span></button><div class="acc-b"><div class="acc-in">
+    <div class="acc-i pd-blue"><button class="acc-h"><span class="acc-tag k">BOOSTER · 메인</span><span class="acc-t">엑소토카인 블루</span><span class="acc-s">병풀캘러스세포외소포 · NMN · 펩타이드 콤플렉스</span></button><div class="acc-b"><div class="acc-in">
       <h4>▎포지션</h4>
       <p>라인의 중심 부스터. 수분감과 윤기, 생기 있어 보이는 피부 인상을 목표로 하는 프리미엄 케어용 포뮬라입니다.</p>
       <h4>▎마이크로젝션 결합 — 가능 ✔</h4>
@@ -583,7 +602,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
       <p>칼리파우더 용해 베이스로 사용 가능합니다. <b>블루에 칼리파우더를 녹여 그대로 스탬핑</b>하는 구성이 객단가를 한 단계 올리는 가장 자연스러운 방법입니다.</p>
     </div></div></div>
 
-    <div class="acc-i"><button class="acc-h"><span class="acc-tag k">BOOSTER · 밸런싱</span><span class="acc-t">피디로엔 핑크</span><span class="acc-s">하이드롤라이즈드DNA · 락토바실러스발효여과물 · 하이드롤라이즈드콜라겐</span></button><div class="acc-b"><div class="acc-in">
+    <div class="acc-i pd-pink"><button class="acc-h"><span class="acc-tag k">BOOSTER · 밸런싱</span><span class="acc-t">피디로엔 핑크</span><span class="acc-s">하이드롤라이즈드DNA · 락토바실러스발효여과물 · 하이드롤라이즈드콜라겐</span></button><div class="acc-b"><div class="acc-in">
       <h4>▎포지션</h4>
       <p>얼굴 전용 밸런싱 부스터. 피부 밸런스가 흔들리기 쉬운 고객, 번들거림과 예민한 컨디션이 반복되는 고객의 데일리 밸런싱 케어 콘셉트로 제안합니다.</p>
       <h4>▎마이크로젝션 결합 — 가능 ✔</h4>
@@ -596,12 +615,28 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
       </div>
     </div></div></div>
 
-    <div class="acc-i"><button class="acc-h"><span class="acc-tag k">BOOSTER · 영양</span><span class="acc-t">엑소토카인 토코포르테</span><span class="acc-s">병풀캘러스세포외소포 · 비타민 콤플렉스 · 멀티 히알루론산 · <b>스탬프 결합 불가</b></span></button><div class="acc-b"><div class="acc-in">
+    <div class="acc-i pd-brown"><button class="acc-h"><span class="acc-tag k">BOOSTER · 영양</span><span class="acc-t">엑소토카인 토코포르테</span><span class="acc-s">병풀캘러스세포외소포 · 비타민 콤플렉스 · 멀티 히알루론산 · <b>스탬프 결합 불가</b></span></button><div class="acc-b"><div class="acc-in">
       <h4>▎포지션</h4>
       <p>영양·윤기 중심의 멀티 부스터. 에어건 분사 시 기화열에 의한 쿨링 감각이 함께 전달되어 <b>마이크로젝션 관리의 전후 케어 단계</b>에 적합합니다.</p>
       <div class="box red" style="margin:12px 0 14px">
         <div class="box-t">⛔ 더마 스탬프 결합 불가</div>
         토코포르테는 물에 가까운 <b>저점도 액상</b>이라 스탬프 헤드에 머무르지 못하고 흘러내립니다. 스탬프에 결합하지 마시고, <b>관리 전 컨디션 정돈</b> 또는 <b>스탬핑 후 영양·쿨링 마무리</b> 단계에서 에어건·손 도포로 운용하십시오.
+      </div>
+      <h4>▎운용 방법 — 세 가지 선택지</h4>
+      <p>스탬프에 결합하지 않을 뿐, 운용 폭은 오히려 넓습니다. 샵 상황과 객단가 설계에 따라 아래 세 가지 중에서 고르시면 됩니다.</p>
+      <div class="flow">
+        <div class="fs"><div class="fs-n">1</div><div>
+          <div class="fs-t">손 도포<span class="fs-time">기본</span></div>
+          <div class="fs-d">그냥 얼굴에 도포하셔도 됩니다. 가장 단순한 방식이며, 기기 준비 없이 어느 단계에나 끼워 넣을 수 있습니다.</div>
+        </div></div>
+        <div class="fs"><div class="fs-n">2</div><div>
+          <div class="fs-t">에어건 분사<span class="fs-time">권장</span></div>
+          <div class="fs-d">점도가 <b>액상에 가깝기 때문에 에어건과 특히 잘 맞습니다.</b> 분사 시 기화열에 의한 쿨링 감각이 함께 전달되어, 스탬핑 후 열감을 정돈하는 마무리 단계에서 만족도가 높습니다.</div>
+        </div></div>
+        <div class="fs"><div class="fs-n">3</div><div>
+          <div class="fs-t">칼리파우더 + 토코포르테 에어건<span class="fs-time">업셀</span></div>
+          <div class="fs-d">칼리파우더를 토코포르테에 녹여 에어건으로 분사하는 구성입니다. <b>바이알이 하나 더 열리므로 객단가를 올리는 방법 중 하나</b>이며, 고객 앞에서 파우더를 녹이는 절차 자체가 프리미엄감을 만듭니다.</div>
+        </div></div>
       </div>
       <h4>▎운용 위치</h4>
       <p>티어 Ⅲ 프로그램에서는 스탬핑을 마친 직후의 영양 도포 단계에 배치합니다. 마이크로젝션 관리의 앞뒤를 감싸는 <b>서포트 부스터</b>로 이해하시면 됩니다.</p>
@@ -611,7 +646,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
       </div>
     </div></div></div>
 
-    <div class="acc-i"><button class="acc-h"><span class="acc-tag g">POWDER · 동결건조</span><span class="acc-t">칼리파우더</span><span class="acc-s">소듐하이알루로네이트 · 만니톨 · 하이드롤라이즈드콜라겐 · 칼슘판토테네이트</span></button><div class="acc-b"><div class="acc-in">
+    <div class="acc-i pd-gray"><button class="acc-h"><span class="acc-tag g">POWDER · 동결건조</span><span class="acc-t">칼리파우더</span><span class="acc-s">소듐하이알루로네이트 · 만니톨 · 하이드롤라이즈드콜라겐 · 칼슘판토테네이트</span></button><div class="acc-b"><div class="acc-in">
       <h4>▎포지션</h4>
       <p>관리 직전에 용해하는 동결건조 파우더 부스터. '고객 눈앞에서 개봉해 녹인다'는 절차 자체가 프리미엄 티어의 체감 근거가 됩니다.</p>
       <div class="box gold" style="margin:12px 0 0">
@@ -620,7 +655,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
       </div>
       <h4>▎절대 규칙</h4>
       <ul>
-        <li><b>단독 사용 금지</b> — 반드시 호환 부스터에 용해합니다. 마이크로젝션 관리에서는 <b>블루 또는 핑크</b>에 녹여 그대로 스탬핑에 사용합니다.</li>
+        <li><b>단독 사용 금지</b> — 반드시 호환 부스터에 용해합니다. 용해 가능한 베이스는 <b class="c-blue">블루</b> · <b class="c-pink">핑크</b> · <b class="c-brown">토코포르테</b> 세 가지입니다. 스탬핑에 쓰실 때는 블루·핑크에, 에어건 분사에 쓰실 때는 토코포르테에 녹이십시오.</li>
         <li><b>에센스겔과 직접 혼합 금지</b> — 칼슘판토테네이트에서 방출된 Ca²⁺(2가 양이온)가 에센스겔의 음이온성 점증제(카보머·아크릴레이트 크로스폴리머) 사슬을 동시에 붙잡아 그물망 구조를 붕괴시킵니다. 꾸덕한 겔이 물처럼 변하는 원인이 이것입니다.</li>
       </ul>
       <p style="margin-top:8px">에센스겔과 함께 쓰실 때는 혼합하지 마시고, 토코포르테 등에 용해한 뒤 <b>별도 단계(레이어링)</b>로 운용하십시오.</p>
@@ -637,7 +672,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
       <p>발효 유래 원료(폴리글루타믹애씨드 등)를 사용하며 향료를 최소화한 설계이므로, 로트에 따라 원료 고유의 냄새가 느껴질 수 있습니다. 향으로 덮지 않은 <b>저자극 설계의 결과</b>로 안내하시고, 평소와 명백히 다른 이취가 있는 경우에는 무상 교환으로 처리해 주십시오.</p>
     </div></div></div>
 
-    <div class="acc-i"><button class="acc-h"><span class="acc-tag o">SOFT PEEL · 세션 분리</span><span class="acc-t">엑소토카인 리퀴드 마스크</span><span class="acc-s">PHA(글루코노락톤) · 병풀캘러스세포외소포 · 7종 히알루론산</span></button><div class="acc-b"><div class="acc-in">
+    <div class="acc-i pd-navy"><button class="acc-h"><span class="acc-tag o">SOFT PEEL · 세션 분리</span><span class="acc-t">엑소토카인 리퀴드 마스크</span><span class="acc-s">PHA(글루코노락톤) · 병풀캘러스세포외소포 · 7종 히알루론산</span></button><div class="acc-b"><div class="acc-in">
       <h4>▎포지션</h4>
       <p>씻어내지 않는 소프트필. 계면활성제를 배제한 제형으로, 붓 도포 후 중화·세정 없이 그대로 마무리할 수 있어 관리 회전율이 높습니다.</p>
       <div class="box red" style="margin:12px 0 0">
@@ -1025,7 +1060,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
     </div></div></div>
 
     <div class="acc-i"><button class="acc-h"><span class="acc-t">Q6. 칼리파우더를 에센스겔에 녹였더니 겔이 물처럼 됐습니다.</span></button><div class="acc-b"><div class="acc-in">
-      정상적인 화학 반응이며, <b>혼합하시면 안 되는 조합</b>입니다. 칼리파우더의 칼슘판토테네이트가 녹으면서 방출하는 Ca²⁺는 2가 양이온이라 음이온성 점증제 사슬 두 개를 동시에 붙잡습니다. 전기적 반발로 유지되던 그물망 구조가 무너지면서 갇혀 있던 물이 풀려나 점도가 사라집니다. 칼리파우더는 <b>블루 또는 핑크</b>에 용해하십시오 — 마이크로젝션에 결합할 수 있는 것도 이 두 가지뿐이므로, 파우더를 녹인 뒤 그대로 스탬핑으로 이어갈 수 있습니다. 에센스겔과 함께 쓰실 때는 혼합하지 마시고 별도 단계로 레이어링하십시오.
+      정상적인 화학 반응이며, <b>혼합하시면 안 되는 조합</b>입니다. 칼리파우더의 칼슘판토테네이트가 녹으면서 방출하는 Ca²⁺는 2가 양이온이라 음이온성 점증제 사슬 두 개를 동시에 붙잡습니다. 전기적 반발로 유지되던 그물망 구조가 무너지면서 갇혀 있던 물이 풀려나 점도가 사라집니다. 칼리파우더를 녹일 수 있는 베이스는 <b>블루 · 핑크 · 토코포르테</b> 세 가지입니다. 스탬핑에 쓰실 때는 블루나 핑크에 녹여 그대로 이어가시고(스탬프에 결합되는 것은 이 두 가지뿐입니다), 에어건 분사에 쓰실 때는 토코포르테에 녹이십시오. 에센스겔과는 혼합하지 마시고 별도 단계로 레이어링하십시오.
     </div></div></div>
 
     <div class="acc-i"><button class="acc-h"><span class="acc-t">Q7. 피디로엔 핑크에도 칼리파우더를 섞으면 안 됩니까?</span></button><div class="acc-b"><div class="acc-in">
@@ -1116,7 +1151,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
 '어떻게 전달하는가'가 중요합니다.
 
 📄 국제 학술지 Science Translational Medicine에 게재된
-배원규 교수(숭실대) 연구실의 기술을
+닥터배 교수 연구실의 과학적이고 최신의 피부흡수 기술을
 저희 샵에서 직접 경험해 보세요.
 
 💬 문의는 DM으로 해주세요.
@@ -1225,7 +1260,7 @@ footer{background:var(--ink);color:rgba(250,248,244,.72);margin-top:56px;padding
     <div class="rule"><div class="rule-n">5</div><div><div class="rule-t">스탬프는 1회용 — 세척 후 재사용 금지</div><div class="rule-d">고객 1인 1개. 고객 앞 개봉을 절차로 고정하십시오.</div></div></div>
     <div class="rule"><div class="rule-n">6</div><div><div class="rule-t">소프트필과 동일 세션 병행 금지</div><div class="rule-d">리퀴드 마스크와 마이크로젝션은 회차를 나눕니다. 최소 7일 간격.</div></div></div>
     <div class="rule"><div class="rule-n">7</div><div><div class="rule-t">마이크로젝션 고객 판매·양도 금지</div><div class="rule-d">교육을 이수한 전문가만 사용할 수 있는 샵 전용 기기입니다. 홈케어용으로 판매하거나 고객에게 넘기지 마십시오.</div></div></div>
-    <div class="rule"><div class="rule-n">8</div><div><div class="rule-t">칼리파우더 단독 사용 금지</div><div class="rule-d">블루 또는 핑크에 용해해 사용합니다. 파우더 추가 개봉은 객단가 상향의 표준 옵션입니다.</div></div></div>
+    <div class="rule"><div class="rule-n">8</div><div><div class="rule-t">칼리파우더 단독 사용 금지</div><div class="rule-d">블루 · 핑크 · 토코포르테에 용해해 사용합니다(스탬핑은 블루·핑크, 에어건은 토코포르테). 파우더 추가 개봉은 객단가 상향의 표준 옵션입니다.</div></div></div>
     <div class="rule"><div class="rule-n">9</div><div><div class="rule-t">칼리파우더 + 에센스겔 직접 혼합 금지</div><div class="rule-d">Ca²⁺가 점증제 네트워크를 붕괴시켜 점도가 사라집니다. 별도 단계로 레이어링하십시오. 핑크와는 혼합 가능합니다.</div></div></div>
     <div class="rule"><div class="rule-n">10</div><div><div class="rule-t">엑소토카인 블랙 포 스칼프는 얼굴 사용 금지</div><div class="rule-d">엘-멘톨 함유 두피 전용 제품. 두피 프로그램은 배원규 교수 연구실로 별도 문의해 주십시오.</div></div></div>
     <div class="rule"><div class="rule-n">11</div><div><div class="rule-t">금지 표현을 쓰지 않습니다</div><div class="rule-d">재생 · 치료 · 치유 · 항염 · 발모 · 주입 · 채널 생성 · 엑소좀(단독). → 진정 · 피부 컨디션 정돈 · 세포외소포 · 식물 엑소좀.</div></div></div>
